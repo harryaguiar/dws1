@@ -43,6 +43,7 @@
 				text-shadow: 4px 4px 4px #aaa;
 				border:2px solid;
 				border-radius:25px;
+				border-color: #DED953;
 				box-shadow: inset 5px 5px 20px #777777;
 				}
 			
@@ -53,16 +54,19 @@
 				text-shadow: 2px 2px 2px #000000;
 				border:2px solid;
 				border-radius:25px;
+				border-color: #DED953;
 				width: 300px;
 				box-shadow: 5px 5px #2e3bef;
 				}
 				
 			h3 {
-				background-color: green;
+				background-color: #359216;
+				color: #DED953;
 				padding: inherit;
 				border:2px solid;
 				text-shadow: 2px 2px 2px #000000;
 				border-radius:25px;
+				border-color: #DED953;
 				width: 100px;
 				height: 20px;
 				box-shadow: 5px 5px #4e8a00;
@@ -95,6 +99,7 @@
 				text-align: inherit;
 				padding: inherit;
 				line-height: 1.4em;
+				border-color: #DED953;
 				}
 				
 			p.intro {
