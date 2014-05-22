@@ -8,10 +8,7 @@
 				padding:10px;
 				font-family: Arial, Verdana, sans-serif;
 				margin:5px;
-				border-top: solid white;
-				border-right: solid white;
-				border-bottom: solid white;
-				border-left: solid white;
+				border-color: #faf600;;
 				}
 			
 			div {
@@ -106,8 +103,8 @@
 				font-style: italic;
 				text-indent: 50px;
 				border-radius:10px;
-				text-align: center;
 				border-color: #faf600;
+				text-align: center;
 				}
 				
 			p.initial:first-letter {
