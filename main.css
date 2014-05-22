@@ -96,6 +96,7 @@
 				text-align: inherit;
 				padding: inherit;
 				line-height: 1.4em;
+				border-style:solid;
 				border-color: #faf600;
 				}
 				
@@ -103,6 +104,7 @@
 				font-style: italic;
 				text-indent: 50px;
 				border-radius:10px;
+				border-style:solid;
 				border-color: #faf600;
 				text-align: center;
 				}
@@ -110,6 +112,7 @@
 			p.initial:first-letter {
 				font-size: 150%;
 				font-weight: bold;
+				border-style:solid;
 				border-color: #faf600;
 				}
 				
