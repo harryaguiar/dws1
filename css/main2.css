@@ -3,7 +3,7 @@
 <style type="text/css">
 			body {
 
-				background-color: #777;
+				background-image: url("images/bg.jpg");
 				color: #faf600;
 				padding:20px;
 				font-family: Arial, Verdana, sans-serif;
@@ -13,21 +13,21 @@
 				}
 			
 			div {
-				background-color: #777;
+
 				border-radius:25px;
-				margin: 20px;
 				Padding: 10px;
 				
 				}
 				
 			.page {
+
 				margin: 0 auto;
-				width: 50%;
+				width: 70%;
 				
 				}
 				
 			.text {
-				background-color: hsla(93, 97%, 31%, 0.5);
+
 				border: 2px solid #0017ad;
 				}
 			
@@ -36,8 +36,9 @@
 				color: #faf600;
 				text-align: center;
 				padding: inherit;
+				width: 950px;
 				font-family: 'Tangerine', serif;
-				font-size: 70px;
+				font-size: 5em;
 				text-shadow: 4px 4px 4px #aaa;
 				border:2px solid;
 				border-radius:25px;
@@ -55,6 +56,7 @@
 				border-color: #faf600;
 				width: 300px;
 				box-shadow: 5px 5px #2e3bef;
+				clear: both;
 				}
 				
 			h3 {
@@ -68,6 +70,7 @@
 				width: 100px;
 				height: 20px;
 				box-shadow: 5px 5px #4e8a00;
+				clear: both;
 				}
 				
 			ul {
@@ -95,10 +98,7 @@
 			p {
 				color: #1a371a;  /*-----font color----*/
 				text-align: inherit;
-				width: 400px;
-				float: left;
-				margin: 5px;
-				padding: 5px;
+				padding: inherit;
 				line-height: 1.4em;
 				border-color: #faf600;
 				}
@@ -112,16 +112,18 @@
 				}
 				
 			p.initial:first-letter {
-				font-size: 1em;
+				font-size: 150%;
 				font-weight: bold;
 				border-color: #faf600;
 				}
 				
-				
 			img.align {
-				float: right;
-				width: 320px;
+				display: block;
 				margin: 0px auto;
+				border-top: 4px solid #007000;
+				border-bottom: 4px solid #007000;
+				border-right: 4px solid #007000;
+				border-left: 4px solid #007000;
 				}
 				
 			figcaption {
@@ -150,6 +152,6 @@
 			a:active {
 				color: #fcfc2c;
 				}
-					
+				
 				
 </style>
