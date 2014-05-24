@@ -39,6 +39,20 @@
 				clear: both;
 				}
 				
+			#content1of2 {
+				float: left;
+				clear: right;
+				width: 500px;
+				margin: 5px;
+				}
+			
+			#content2of2 {
+				float: left;
+				clear: right;
+				width: 500px;
+				margin: 5px;
+				}
+				
 			.info {
 				float: left;
 				clear: right;
