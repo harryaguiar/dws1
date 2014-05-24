@@ -17,6 +17,12 @@
 				}
 			
 			#page {
+				Background-color: #fff;
+				background-position: center;
+				background-size: cover; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
 				padding: 20px;
 				border:2px solid;
 				border-radius:25px;
