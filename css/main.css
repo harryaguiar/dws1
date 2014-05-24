@@ -173,6 +173,8 @@
 				background-image: -webkit-linear-gradient(#005cad, #3aad00); 
 				/* Opera 11.10+ */
 				background-image: -o-linear-gradient(#005cad, #3aad00);
+				background-repeat: no-repeat;
+				background-position: center;
 				padding: 30px;
 				border:2px solid;
 				border-radius:25px;
