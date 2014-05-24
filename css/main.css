@@ -41,6 +41,7 @@
 				
 			#maininfo {
 				float: left;
+				clear: right;
 				}
 				
 			h1 {
@@ -163,7 +164,7 @@
 				margin: 5px 5px;
 				top: 305px;
 				right: 10px;
-				clear: both;
+				clear: left;
 				}
 			
 			.entry {
