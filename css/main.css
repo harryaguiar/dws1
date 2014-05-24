@@ -41,22 +41,19 @@
 				
 			#content1of3 {
 				float: left;
-				clear: right;
 				width: 500px;
 				margin: 5px;
 				}
 			
 			#content2of3 {
 				float: left;
-				clear: right;
 				width: 500px;
 				margin: 5px;
 				}
 				
 			#content3of3 {
 				float: right;
-				clear: left;
-				width: 500px;
+				width: 300px;
 				margin: 5px;
 				}
 				
