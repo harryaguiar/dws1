@@ -30,6 +30,7 @@
 				width: 1060px;
 				margin: 0 5px;
 				clear: both;
+				overflow: auto;
 				}
 					
 			.content {
