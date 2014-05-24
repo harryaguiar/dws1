@@ -38,7 +38,11 @@
 				margin: 0 5px;
 				clear: both;
 				}
-			
+				
+			#maininfo {
+				float: left;
+				}
+				
 			h1 {
 				background-color: #448000;
 				color: #faf600;
