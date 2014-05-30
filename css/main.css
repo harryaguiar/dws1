@@ -257,7 +257,7 @@
 						
 			.form {
 				color: #000a7a;
-				margin: 5px solid #777;
+				margin: 5px;
 				width: 600px;
 				display: block;
 				}
@@ -266,7 +266,7 @@
 				width: 200px;
 				display: block;
 				text-align: right;
-				margin: auto 0 auto 50px solid #777;
+				margin: auto 0 auto 50px;
 				padding-right: 10px;}
 			.radio-buttons {
 				color: #000a7a;
