@@ -108,24 +108,29 @@
 				clear: left;
 				}
 				
-			ul {
-				width: 570px;
+			nav ul {
+				display: inline;
+				clear: both;
+				width: 900px;
 				padding: 15px;
-				list-style-type:square;;
+				list-style-type:block;
+				overflow:hidden;
 				margin: 0px auto;
 				font-size: 15px;
-				border-top: 2px solid #000;
-				border-bottom: 1px solid #000;
 				text-align: center;
 				line-height: 1.4em;
 				list-style-type: disc;
 				}
 				
-			ul.a {
+			nav ul.a {
 				list-style-type: disc;
+				list-style-type: block;
+				width: 900px;
 				}
 				
-			li {
+			nav li {
+				float: left;
+				list-style-type: block;
 				display: inline;
 				margin: 0px 3px;
 				}
@@ -188,7 +193,7 @@
 				clear: left;
 				}
 			
-			.entry {
+			.article {
 				width: 220px;
 				margin: 5px 5px 5px 5px;
 				overflow: initial;
