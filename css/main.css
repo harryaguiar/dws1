@@ -247,6 +247,93 @@
 				color: #fff;
 				}
 				
+					/*---------forms---------*/
+			input:focus {
+				background-color: #d2ffc2;
+				}
+						
+			.form {
+				color: #000a7a;
+				margin: 5px;
+				width: 600px;
+				display: block;
+				}
+			.title {
+				float: left;
+				width: 200px;
+				display: block;
+				text-align: right;
+				margin: auto 0 auto 50px;
+				padding-right: 10px;}
+			.radio-buttons {
+				color: #000a7a;
+				}
+			.input {
+    			border: 1px solid #006;
+    			background: #ffc;
+					}
+			.button {
+   				border: 1px solid #006;
+    			/* fallback color */
+				background-color: #3aad00; 
+				/* fallback image */
+				background-image: url("images/gradient.jpg");
+				/* Firefox 3.6+ */
+				background-image: -moz-linear-gradient(#005cad, #3aad00);
+				/* Safari 4+, Chrome 1+ */
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#005cad), to(#3aad00));
+				/* Safari 5.1+, Chrome 10+ */
+				background-image: -webkit-linear-gradient(#005cad, #3aad00); 
+				/* Opera 11.10+ */
+				background-image: -o-linear-gradient(#005cad, #3aad00);
+				background-repeat: no-repeat;
+				background-position: center;
+    			float: right;
+    			clear: both;
+    			color: #fff;
+    			width: 10em;
+    			height: 3em;
+    			margin: 2px 0;
+    			font-size: 1em;
+					}
+			.button:hover {
+				border: 1px solid #3aad00;
+    			/* fallback color */
+				background-color: #006; 
+				/* fallback image */
+				background-image: url("images/gradient.jpg");
+				/* Firefox 3.6+ */
+				background-image: -moz-linear-gradient(#3aad00, #005cad);
+				/* Safari 4+, Chrome 1+ */
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3aad00), to(#005cad));
+				/* Safari 5.1+, Chrome 10+ */
+				background-image: -webkit-linear-gradient(#3aad00, #005cad); 
+				/* Opera 11.10+ */
+				background-image: -o-linear-gradient(#3aad00, #005cad);
+				background-repeat: no-repeat;
+				background-position: center;
+    			float: right;
+    			clear: both;
+    			
+    				}
+			p.form-text {
+				color: #000a7a;
+				padding: 0;
+					}
+			textarea#comments {
+				width: 380px;
+				height: 120px;
+				border: 3px solid #cccccc;
+				padding: 10px;
+				font-family: Tahoma, sans-serif;
+				background-color: #fff;
+				background-position: bottom right;
+				background-repeat: no-repeat;
+				float: right;
+				clear: both; 			
+							}
+				/*---------forms end---------*/
+				
 			#footer {
 				float: left;
 				clear: both;

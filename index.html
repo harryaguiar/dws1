@@ -323,6 +323,48 @@
 		</div><!-- /gallery -->
 		</div>
 		
+		<form 
+			action="example.php" method="get">
+				<div class="form">
+						<label for="name" class="title">Name:</label>
+						<input type="text" name="Name" id="name" placeholder="Fred Alencar"/>
+				</div>
+				
+				<div class="form">
+						<label for="email" class="title">Email:</label>
+						<input type="email" id="email" name="email" placeholder="mail@example.com"/>
+				</div>
+				
+				<div class="radio-buttons">
+						<span class="title">Rate this page:</span>
+						<input id="amazing" type="radio" name="rate" value="a" />
+						<label for="amazing">Amazing</label>
+						<input id="good" type="radio" name="rate" value="g" />
+						<label for="good">Good</label>
+						<input id="poor" type="radio" name="rate" value="p" />
+						<label for="poor">Poor</label>				
+				</div>
+				
+				<div class="form">
+						<p class="form-text"> Where did you hear about us?
+						<select name="places">
+								<option value="google" selected="selected">Google</option>
+								<option value="yahoo">Yahoo</option>
+								<option value="ask">Ask</option>
+						</select>
+				</div>
+				
+				<div class="form">
+						<p class="form-text"> Any additional comments?
+						<textarea name="comments" id="comments" placeholder="Enter your comments..."></textarea>
+						</p>		
+				</div>
+				
+				<div class="form">
+						<input type="submit" value="Submit" class="button" />
+				</div>
+		</form>
+		
 		
 							<!-- Footer content -->
 		<footer>
