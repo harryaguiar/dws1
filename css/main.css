@@ -111,11 +111,11 @@
 			nav ul {
 				display: inline;
 				clear: both;
-				width: 900px;
-				padding: 15px;
-				list-style-type:block;
+				width: 950px;
+				padding: 10px;
+				list-style-type:none;
 				overflow:hidden;
-				margin: 0px auto;
+				margin: 0;
 				font-size: 15px;
 				text-align: center;
 				line-height: 1.4em;
@@ -123,16 +123,19 @@
 				}
 				
 			nav ul.a {
-				list-style-type: disc;
-				list-style-type: block;
-				width: 900px;
+				display:block;
+				width:950px;
+				background-color:#40f000;
+				margin: 5px 3px;
+				text-align: center;
 				}
 				
 			nav li {
 				float: left;
 				list-style-type: block;
-				display: inline;
-				margin: 0px 3px;
+				display: block;
+				margin: 5px 3px;
+				text-align: center;
 				}
 				
 			p {
@@ -254,7 +257,7 @@
 						
 			.form {
 				color: #000a7a;
-				margin: 5px;
+				margin: 5px solid #777;
 				width: 600px;
 				display: block;
 				}
@@ -263,7 +266,7 @@
 				width: 200px;
 				display: block;
 				text-align: right;
-				margin: auto 0 auto 50px;
+				margin: auto 0 auto 50px solid #777;
 				padding-right: 10px;}
 			.radio-buttons {
 				color: #000a7a;
@@ -294,7 +297,7 @@
     			width: 10em;
     			height: 3em;
     			margin: 2px 0;
-    			font-size: 1em;
+    			font-size: 0.8em;
 					}
 			.button:hover {
 				border: 1px solid #3aad00;
