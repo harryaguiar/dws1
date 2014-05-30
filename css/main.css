@@ -162,7 +162,32 @@
 				border-color: #faf600;
 				}
 			
-			
+			table {
+				color: #000a7a;
+				width: 600px;
+				border: 2px solid #000000;}
+			th, td {
+				padding: 7px 10px 10px 10px;
+				border-collapse: collapse;}
+			th {
+				background-color: #0017ad;
+				color: #faf600;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				font-size: 90%;
+				border-bottom: 2px solid #111111;
+				border-top: 2px solid #999;
+				text-align: center;
+				}
+			tr.header {
+				background-color: #3aad00;
+				}
+				
+			tr.even {
+				background-color: #f8ffad;}
+			tr:hover {
+				background-color: #c3e6e5;}
+				
 			
 			.gallery {
 				float: right;
